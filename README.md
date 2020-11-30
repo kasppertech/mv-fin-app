@@ -154,7 +154,7 @@ Tela de consulta de clientes, com opção de filtro para pesquisa dos dados.
 - Ações de edição do cliente.
 - Ações de relatório do cliente.
 
-![alt tag](https://github.com/kasppertech/mv-fin-app/blob/master/src/main/resources/img/consulta_usuario.png)
+![alt tag](https://github.com/kasppertech/mv-fin-app/blob/master/src/main/resources/img/consulta_cliente.png)
 
 ###### Tela de cadastro de cliente
 
