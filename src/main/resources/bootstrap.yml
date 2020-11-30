@@ -26,12 +26,8 @@ auth:
     /swagger-resources/configuration/security,
     /webjars/**,
     /actuator/**,
-    /auth/token,
-    /cliente/*,
-    /movimentacao/*/*,
-    /movimentacao/*,
-    /endereco/*,
-    /conta/*
+    /auth/token
+
  
 
 allowed:
