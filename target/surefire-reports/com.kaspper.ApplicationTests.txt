@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.kaspper.ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.387 s <<< FAILURE! - in com.kaspper.ApplicationTests
+com.kaspper.ApplicationTests  Time elapsed: 0.385 s  <<< ERROR!
+java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
+

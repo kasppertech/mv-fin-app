@@ -1,0 +1,71 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /mv-fin-app
+
+spring:
+  profiles:
+    active: local 
+
+
+jwt:
+  secret: k4955erMV374
+  expiration: 30
+  
+auth:
+  whiteList:
+    /v3,
+    /v3/api-docs,
+    /v2/api-docs,
+    /v2,
+    /swagger-resources,
+    /swagger-resources/**,
+    /swagger-ui.html,
+    /swagger-ui/**,
+    /swagger-resources/configuration/ui,
+    /swagger-resources/configuration/security,
+    /webjars/**,
+    /actuator/**,
+    /auth/token,
+    /cliente/*,
+    /movimentacao/*/*,
+    /movimentacao/*,
+    /endereco/*,
+    /conta/*
+ 
+
+allowed:
+  origins: http://127.0.0.1:8080
+
+---
+spring:
+  profiles: local
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521/ORCLCDB.localdomain?currentSchema=mvfin
+    username: mvfin
+    password: mvfin
+
+---
+
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    test-on-borrow: true
+    validation-query: SELECT 1
+    validation-interval: 30000
+    remove-abandoned: true
+    test-while-idle: true
+    remove-abandoned-timeout: 55
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle10gDialect
+    hibernate:
+      ddl-auto: none      
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true  
+
+
+
+
+       
+ 
