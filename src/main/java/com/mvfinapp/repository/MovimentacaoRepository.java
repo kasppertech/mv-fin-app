@@ -135,7 +135,7 @@ public interface MovimentacaoRepository extends JpaRepository<MovimentacaoModel,
 			+ " )"
 			+ " FROM MovimentacaoModel tm"
 			+ " JOIN ClienteModel tc ON tc.id = tm.cliente.id "
-			+ " AND tc.tipoCliente = 2"
+//			+ " AND tc.tipoCliente = 2"
 			+ " GROUP BY tc.nome"
 			+ "")
 	List<TotalReceitaEmpresaDto> totalReceitaEmpresa(LocalDateTime dataInicial, LocalDateTime dataFim);

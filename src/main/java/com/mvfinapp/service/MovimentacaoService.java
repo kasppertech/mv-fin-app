@@ -408,11 +408,11 @@ public class MovimentacaoService {
 		criaColuna("Quantidade de movimentações", cc, 1, row);
 		criaColuna("Valor das movimentações", cc, 2, row);
 
-		int linha = 2;
+		int linha = 1;
 
 		for (int i = 0; i < lista.size(); i++) {
 
-			linha = linha + i;
+			linha = linha + 1;
 			row = dadosRelatorio.createRow(linha);
 
 			criaColuna(lista.get(i).getNome(), cc, 0, row);

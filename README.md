@@ -104,7 +104,7 @@ Execute o projeto na IDE de desenvolvimento e acesse o endereço do Swagger.
 
 http://localhost:8080/mv-fin-app/swagger-ui/index.html
 
-![alt tag](https://github.com/kasppertech/mv-fin-app/blob/master/src/main/resources/img/swagger.png)
+![alt tag](http://10.11.3.40:8085/projetos/mv-fin-app/raw/master/src/main/resources/img/swagger.png)
 
 ##### Passo 05
 
@@ -128,7 +128,7 @@ usuário: admin
 
 senha: 1234
 
-![alt tag](https://github.com/kasppertech/mv-fin-app/blob/master/src/main/resources/img/login.png)
+![alt tag](http://10.11.3.40:8085/projetos/mv-fin-app/raw/master/src/main/resources/img/login.png)
 
 ###### Tela de Home
 
@@ -142,7 +142,7 @@ Tela Home, um painel geral com as informações dos clientes e movimentações.
 - Extração do relatório em excel de saldo de todos os clientes.
 - Extração do relatório em excel de receita da empresa por período.
 
-![alt tag](https://github.com/kasppertech/mv-fin-app/blob/master/src/main/resources/img/home.png)
+![alt tag](http://10.11.3.40:8085/projetos/mv-fin-app/raw/master/src/main/resources/img/home.png)
 
 
 ###### Tela de consulta cliente
@@ -165,7 +165,7 @@ Tela de cadastro de cliente, endereços e contas.
   - É obrigatorio o cadastro de uma movimentação inicial.
 
 
-![alt tag](https://github.com/kasppertech/mv-fin-app/blob/master/src/main/resources/img/cadastrar.png)
+![alt tag](http://10.11.3.40:8085/projetos/mv-fin-app/raw/master/src/main/resources/img/cadastrar.png)
 
 ###### Tela de detalhe das informações
 
@@ -174,7 +174,7 @@ Tela de detalhe, modal com os dados do cliente em seções.
 - Seção dos dados dos endereços.
 - Seção dos dados das contas.
 
-![alt tag](https://github.com/kasppertech/mv-fin-app/blob/master/src/main/resources/img/detalhe.png)
+![alt tag](http://10.11.3.40:8085/projetos/mv-fin-app/raw/master/src/main/resources/img/detalhe.png)
  
  
 ###### Tela de relatório por cliente
@@ -183,7 +183,7 @@ Tela de relatório por cliente, extraçao das informações dos clientes e movim
 - Extração do relatório em excel de saldo do cliente.
 - Extração do relatório em excel de saldo do cliente e período.
 
-![alt tag](https://github.com/kasppertech/mv-fin-app/blob/master/src/main/resources/img/relatorios.png)
+![alt tag](http://10.11.3.40:8085/projetos/mv-fin-app/raw/master/src/main/resources/img/relatorios.png)
  
  
 
